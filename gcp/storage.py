@@ -112,8 +112,8 @@ class CloudStorageClient(object):
 
 
 if __name__ == "__mvp__":
-    bucket = "mw-cache-experiment"
-    project = "mw-etl-sandbox"
+    bucket = ""
+    project = ""
     cs = CloudStorageClient(bucket=bucket, project=project)
     # list all blobs
     blobs = cs.list_blobs()
